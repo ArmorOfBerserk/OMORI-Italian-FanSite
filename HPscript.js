@@ -81,6 +81,7 @@ async function load_page(lang){
     document.getElementById('disclaimer').innerText = ita[0];
     /*Posizione 1 per progetto*/
     document.getElementById('project').innerText = ita[1];
+    console.log(ita[0])
     /*Posizione 2 per AGGIORNAMENTI*/
     document.getElementById('date').innerText = ita[2].split(" - ")[0];
     document.getElementById('novita').innerText = ita[2].split(" - ")[1];
